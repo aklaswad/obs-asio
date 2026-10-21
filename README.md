@@ -1,3 +1,11 @@
+> [!Note]
+> This fork exists only to apply [PR #173](https://github.com/Andersama/obs-asio/pull/173)
+> (fix for [#172](https://github.com/Andersama/obs-asio/issues/172): the ASIO source going permanently
+> silent after a driver reset) on top of upstream 3.2.1, and to get the CI building again so a binary
+> can be produced. It is not maintained beyond that. Use the upstream project once the fix is merged there.
+
+---
+
 # obs-asio ![](https://img.shields.io/github/downloads/andersama/obs-asio/total?cacheSeconds=2678400) [![Plugin Build](https://github.com/Andersama/obs-asio/actions/workflows/main.yml/badge.svg)](https://github.com/Andersama/obs-asio/actions/workflows/main.yml)
 ![](/images/obs_icon_very_small.png)  ![](/images/TECH_ASIOsmall.png)
 
