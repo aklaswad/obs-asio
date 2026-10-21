@@ -271,7 +271,7 @@ public:
 		int useTimeSlice()
 		{
 			if ((active & client_mask) == 0 || (active & device_mask) == 0 || callback != current_callback)
-				return -1;
+				return wait_time;
 			int write_index = callback->write_index();
 			if (read_index == write_index)
 				return wait_time;
